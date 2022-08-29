@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)file:///home/pape/Documents/dr/webserver/projet1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet 1</title>
+  <link rel="stylesheet" href="/home/pape/Documents/dr/webserver/p3 rtf/projet1.css">
+</head>
+<body><nav>
+  <img src="/home/pape/Documents/dr/webserver/p3 rtf/téléchargement.jpeg" width="100%" height="300spx">
+</nav>
+<main>!
+  <div id="monTableau">
+    <header class="t1"> <h1>Mon Projet : Pape souka Diouf</h1> </header>
+    <div class="bokk" >
+      <div id="bc1" class="p1"><p class="para"> bloc1</p> </div>
+      <div id="bc2" class="p1"><p class="para">bloc2</p></div>
+      <div id="bc3" class="p1"><p class="para">bloc3</p></div>
+      <div id="bc4" class="p1"> <p class="para">bloc4</p> </div>
+    </div>
+  </div>
+  <button  id="btn" onclick="capt()" >CLICK</button>
+  <section id="formaff">
+    <section id="form">
+      <div id="title">
+        <h2>Veuillez remplir les champs suivants</h2>
+      </div>
+      <div>
+        
+        <label for="Prenom" class="labbel">Prenom:</label>
+        <input type="text" id="Prenom"  class="imput" name="Prenom"><br><br>
+        <label for="Nom" class="labbel">Nom:</label>
+        <input type="text" id="Nom"  class="imput" name="Nom"><br><br>
+        <label for="Telephone" class="labbel">Telephone:</label>
+        <input type="tel" id="Telephone" class="imput" name="Telephone"><br><br>
+        <label for="Email" class="labbel">Email:</label>
+        <input type="email" id="Email" class="imput" name="Email"><br><br>
+        <div> <label for="VotreMessage" class="labbel">Votre message:</label></div>
+        <textarea name="VotreMessage" id="VotreMessage" cols="70" rows="10"></textarea>
+        <div><input  id="submit" type="submit" value="Envoyer" onclick="verification();"></div>
+      </div>
+    </section>
+    <section id="aff">
+      <div id="title">
+        <h2>Voici vos informations :</h2>
+      </div>
+      <div  class="offly"> Prenom:</div>
+      <div  class="mesInfos" id="myDiv1"> </div>
+      <div  class="offly"> Nom:</div>
+     <div  class="mesInfos"id="myDiv2"></div>
+      <div class="offly" >Numero:</div>
+    <div  class="mesInfos" id="myDiv3"></div>
+      <div  class="offly"> Email :</div> 
+    <div  class="mesInfos"id="myDiv4"></div>
+      <div  class="offly"> Message:</div>
+       <div  class="mesInfos"id="myDiv5"></div>
+    </section>
+  </section>
+</main>
+
+  
+<script src="prdkr.js"></script>
+</body>
+</html>
