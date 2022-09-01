@@ -1,43 +1,3 @@
-/* /* 
-var color =("green", "orange", "red", "white", "black" ,"blue","green", "blue", "red", "white", "black" ,"blue");
-var colour =("yellow", "blue", "white", "black", "green" ,"red","yellow", "orange", "white", "black", "green" ,"red");
-
-const buton =document.querySelector("button");
-buton.addEventListener("click", changeBG ) ;
-const contant = document.getElementsByClassName('p1');
-/* var bingo = document.querySelectorAll('.para') */
-/*  var p=0;
-    var l=0;
- function changeBG() {
-	
-	var bc1 = document.getElementById('bc1');
-	var bc2 = document.getElementById('bc2');
-	var bc3 = document.getElementById('bc3');
-	var bc4 = document.getElementById('bc4');
-	i= 0 < bingo.length ? i++ : 0;
-	p= 0 < color.length ? p++ : 0;
-	l= 0 < colour.length ? l++: 0;
-	bc1.style.background= color[p]
-	bc2.style.backgroundColor= color[p]
-	bc3.style.backgroundColor= color[p]
-	bc4.style.backgroundColor= color[p]
-    bc1.style.color = colour[l]
-	bc2.style.color = colour[l]
-	bc3.style.color = colour[l]
-	bc4.style.color = colour[l]
-
-	
-		 
-}  
-/*  var numero=0;
-function ChangeSlide(sens) {
-    numero = numero + sens;
-    if (numero < 0)
-        numero = color.length - 1;
-    if (numero > color.length - 1)
-        numero = 0;
-    document.getElementById("bc1").src = color[numero];
-}setInterval("ChangeSlide(1)", 4000); */
 
 
 function verification() {
@@ -85,42 +45,7 @@ div.innerHTML += VotreMessage;
 
 
 
-/* 	document.querySelector("button").addEventListener("click",capt())
-function capt(){
-	var bougouma = document.getElementsByClassName('p1');
-	for (let i=o; i<4; i++){
-		bougouma[i].classList.toggle("biggiri");
-	}
-}  */
- 
-		
-/* 			
-function changerDeCouleur(){
-    const bloc =document.getElementById('container').querySelectorAll('div');
-    const p = document.getElementById('container').querySelectorAll('p');
-    
-    for (let index = 0; index < bloc.length; index++) {
-        if (bloc[index].classList.contains('changeColor')) {
-            bloc[index].classList.remove('changeColor');
-            p[index].classList.remove('textColor');
-        }else{
-            bloc[index].classList.add('changeColor');
-            p[index].classList.add('textColor');
-        }
-    }
-}
- */
 
-/* onst btn =document.getElementById("btn");
-const selecZon =document.querySelectorAll(".p");
-btn.addEventListener("click",changerDeCouleur);
-function changerDeCouleur()
-{
-    for(var i=0; i<4; i++)
-    {
-        selecZon[i].classList.toggle("fond");
-    }
-} */
 var color =["green", "yellow", "red", "white", "black" ,"blue"];
 var colour =["yellow", "blue", "white", "black", "green" ,"red"];
 var i=0;
