@@ -46,20 +46,10 @@ div.innerHTML += VotreMessage;
 
 
 
-var color =["green", "yellow", "red", "white", "black" ,"blue"];
-var colour =["yellow", "blue", "white", "black", "green" ,"red"];
-var i=0;
-var j=0;
-document.querySelector("button").addEventListener("click",
-function() {
-    i= 1 < color.length ? ++i : 0;
-    j= 3 < colour.length ? ++j : 0;
-    document.getElementById('bc1').style.backgroundColor= color[i]
-    document.getElementById('bc1').style.color = colour[j]
-	document.getElementById('bc2').style.backgroundColor= color[i]
-    document.getElementById('bc2').style.color = colour[j]
-	document.getElementById('bc3').style.backgroundColor= color[i]
-    document.getElementById('bc3').style.color = colour[j]
-	document.getElementById('bc4').style.backgroundColor= color[i]
-    document.getElementById('bc4').style.color = colour[j]
-}) 
+
+function colorer (){
+	const bloc = document.querySelectorAll('.p1')
+	for (let i=0; i< bloc.length; i++){
+		bloc[i].classList.toggle('color')
+	}
+}
